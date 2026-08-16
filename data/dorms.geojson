@@ -1,0 +1,558 @@
+{
+  "type": "FeatureCollection",
+  "name": "salzburg_student_housing",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "name": "Auferstehungskirche Salzburg",
+        "operator": "Katharina von Bora Studentenheim",
+        "type": "Single rooms",
+        "locality": "Salzburg",
+        "fee_min": 370.0,
+        "fee_max": 540.0,
+        "eligibility": "",
+        "website": "https://evang-salzburg.at/studentenheim",
+        "description": "The rooms are arranged around the church. Single rooms are available; residents share a kitchen, bathroom and toilet, and some apartments have a balcony. The residence offers independent living and no cleaning service is provided. A common room with a kitchen in the basement is available for shared activities.",
+        "photos": [],
+        "reviews": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.044991,
+          47.779128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "name": "Concordia Klagenfurt",
+        "operator": "Salzburger Studentenwerk",
+        "type": "Single rooms",
+        "locality": "Klagenfurt, Carinthia",
+        "fee_min": 462.0,
+        "fee_max": 462.0,
+        "eligibility": "",
+        "website": "https://studentenheim.at/",
+        "description": "In Concordia Klagenfurt student residence, you'll enjoy a peaceful living environment while still being so centrally located that you're right next to the Alpen-Adria University. Or, of course, by the lake.",
+        "photos": [],
+        "reviews": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.28659,
+          46.608321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "name": "Dr. Franz Rehrl Dormitory",
+        "operator": "Rehrlheim",
+        "type": "Single rooms",
+        "locality": "Salzburg",
+        "fee_min": 365.0,
+        "fee_max": 390.0,
+        "eligibility": "Students up to 27 years of age",
+        "website": "https://www.rehrlheim.at/66-2/",
+        "description": "The Dr. Franz Rehrl dormitory was opened in 1981 and since then has offered 26 rooms in two categories. Each room has a wet room, a small kitchenette with a refrigerator and a TV connection. Wi-Fi is also available free of charge for the residents.",
+        "photos": [],
+        "reviews": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.051605,
+          47.794171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "name": "Egger-Lienz Student Residence",
+        "operator": "Salzburg Student Support Association",
+        "type": "Single rooms",
+        "locality": "Salzburg",
+        "fee_min": null,
+        "fee_max": null,
+        "eligibility": "",
+        "website": "https://www.egger-lienzheim.at/wohnen/",
+        "description": "The Egger-Lienz student residence is run by the Salzburg Student Support Association. It values a positive atmosphere, a climate of mutual respect and cooperation, a strong sense of community, and prioritises cleanliness and safety. Residents find the quiet needed for living and studying, as well as opportunities to connect with other students.",
+        "photos": [],
+        "reviews": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.071995,
+          47.782712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "name": "Europe College",
+        "operator": "Salzburger Studentenwerk",
+        "type": "Single and double rooms",
+        "locality": "Salzburg",
+        "fee_min": 392.0,
+        "fee_max": 543.0,
+        "eligibility": "",
+        "website": "https://studentenheim.at/",
+        "description": "Like the Franz von Sales College, ideally located between Alpenstraße and the Salzburg Süd stop, here you will find another refuge with perfect connections to the city or to Puch and Kuchl.",
+        "photos": [],
+        "reviews": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.072618,
+          47.772463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "name": "Franz von Sales College",
+        "operator": "Salzburger Studentenwerk",
+        "type": "Single rooms",
+        "locality": "Salzburg",
+        "fee_min": 451.0,
+        "fee_max": 459.0,
+        "eligibility": "",
+        "website": "https://studentenheim.at/",
+        "description": "Ideally located between Alpenstraße and the Salzburg Süd stop, this is a true oasis of calm with perfect, frequent connections to the city or to Puch and Kuchl. And the Shopping Arena, a well-stocked shopping center, is just around the corner.",
+        "photos": [],
+        "reviews": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.073567,
+          47.771811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "name": "Home4Students",
+        "operator": "Home4Students",
+        "type": "Single and double rooms",
+        "locality": "Salzburg",
+        "fee_min": 305.0,
+        "fee_max": 505.0,
+        "eligibility": "",
+        "website": "https://www.home4students.at/en/our-dormitories/dormitories-salzburg/dormitory-glockengasse/",
+        "description": "The occupant friendly interior lives up to the promise given by the dormitory`s modern exterior. In addition to the comfortable rooms and the wide open common rooms, a roof-top terrace with an incredible view awaits you.",
+        "photos": [],
+        "reviews": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.049204,
+          47.80405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8,
+        "name": "Humboldt House",
+        "operator": "WIST Salzburg",
+        "type": "Single rooms",
+        "locality": "Salzburg",
+        "fee_min": 361.2,
+        "fee_max": 454.2,
+        "eligibility": "",
+        "website": "https://neu.wist-salzburg.com/haus-humboldt",
+        "description": "Located in a natural setting in the south of Salzburg, a few bus stops from the Faculty of Natural Sciences, Unipark Nonntal and the Salzburg old town.",
+        "photos": [],
+        "reviews": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.072961,
+          47.782171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "name": "International College",
+        "operator": "Salzburger Studentenwerk",
+        "type": "Single and double rooms",
+        "locality": "Salzburg",
+        "fee_min": 342.0,
+        "fee_max": 495.0,
+        "eligibility": "",
+        "website": "https://studentenheim.at/",
+        "description": "The International College impresses not only with its proximity to NAWI, Unipark and PH, but also with its immediate proximity to Alpenstraße with plenty of shopping and dining options as well as excellent bus connections.",
+        "photos": [],
+        "reviews": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.072171,
+          47.77899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10,
+        "name": "Kolping Youth Accommodation",
+        "operator": "Kolpinghaus Salzburg",
+        "type": "Single and double rooms",
+        "locality": "Salzburg",
+        "fee_min": 472.7,
+        "fee_max": 657.7,
+        "eligibility": "No age limit",
+        "website": "https://www.kolpinghaus-salzburg.at/en/youth-hostel.html",
+        "description": "The Kolping House Youth Accommodation and Halls of Residence offer you an ideal place to live in Salzburg. Young people are thrilled with the central location, affordable rooms, modern home comforts and the feeling of living in a lively community.",
+        "photos": [],
+        "reviews": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.036281,
+          47.821392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11,
+        "name": "Leonardo Student Residence",
+        "operator": "Salzburger Studentenwerk",
+        "type": "Single rooms",
+        "locality": "Salzburg",
+        "fee_min": 523.0,
+        "fee_max": 612.0,
+        "eligibility": "",
+        "website": "https://studentenheim.at/",
+        "description": "Anyone looking for the perfect balance between excellent transport links and easy access to nature will definitely find what they're looking for at the Leonardo student residence. Located directly next to trolleybus and S-Bahn stops, you can get anywhere quickly from here.",
+        "photos": [],
+        "reviews": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.062462,
+          47.811951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12,
+        "name": "Matador Kuchl",
+        "operator": "Salzburger Studentenwerk",
+        "type": "Single rooms",
+        "locality": "Kuchl, Tennengau",
+        "fee_min": 494.0,
+        "fee_max": 494.0,
+        "eligibility": "",
+        "website": "https://studentenheim.at/",
+        "description": "This well-built residence hall, located in the heart of Kuchl, is perfect for all students at the Salzburg University of Applied Sciences campus in Kuchl who are studying wood. Here, concentrated expertise in woodworking meets an ideal study-life balance.",
+        "photos": [],
+        "reviews": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.152257,
+          47.629979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13,
+        "name": "Merian House",
+        "operator": "WIST Salzburg",
+        "type": "Single rooms",
+        "locality": "Salzburg",
+        "fee_min": 515.2,
+        "fee_max": 515.2,
+        "eligibility": "Students up to 30 years of age",
+        "website": "https://neu.wist-salzburg.com/haus-humboldt",
+        "description": "Located in the city centre, directly next to Salzburg's main train station. There are excellent public transport connections to the Salzburg University of Applied Sciences, Science City Itzling, and Salzburg's old town.",
+        "photos": [],
+        "reviews": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.047091,
+          47.811937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14,
+        "name": "Mozart Student Residence",
+        "operator": "Salzburger Studentenwerk",
+        "type": "Single and double rooms",
+        "locality": "Salzburg",
+        "fee_min": 419.0,
+        "fee_max": 613.0,
+        "eligibility": "",
+        "website": "https://studentenheim.at/",
+        "description": "Perfectly located for singing and music students of all kinds, you will find plenty of like-minded people from all over the world and six excellent rehearsal rooms here in the heart of the beautiful Andräviertel district and in the immediate vicinity of the Mozarteum.",
+        "photos": [],
+        "reviews": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.043173,
+          47.808284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15,
+        "name": "Paracelsus House",
+        "operator": "WIST Salzburg",
+        "type": "Single rooms",
+        "locality": "Salzburg",
+        "fee_min": 392.0,
+        "fee_max": 463.0,
+        "eligibility": "",
+        "website": "https://neu.wist-salzburg.com/haus-humboldt",
+        "description": "Located in a natural setting by the botanical garden, opposite the Faculty of Natural Sciences, and only one bus stop away from Unipark Nonntal and Salzburg's old town.",
+        "photos": [],
+        "reviews": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.061832,
+          47.787439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16,
+        "name": "Paris Lodron Student Residence",
+        "operator": "Salzburger Studentenwerk",
+        "type": "Single and double rooms",
+        "locality": "Salzburg",
+        "fee_min": 312.0,
+        "fee_max": 492.0,
+        "eligibility": "",
+        "website": "https://studentenheim.at/",
+        "description": "The Paris Lodron student residence is the most intimate and centrally located of all the residences. Its attractive city center location allows for quick access to the Mozarteum and all other essential areas for students.",
+        "photos": [],
+        "reviews": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.05641,
+          47.806654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17,
+        "name": "PMU Student Residence",
+        "operator": "Salzburger Studentenwerk",
+        "type": "Single rooms",
+        "locality": "Salzburg",
+        "fee_min": 529.0,
+        "fee_max": 636.0,
+        "eligibility": "",
+        "website": "https://studentenheim.at/",
+        "description": "Located in the immediate vicinity of the PMU campus, the PMU student residence presents itself as the perfect space for aspiring medical students and future female doctors. A particularly painless aspect: The Paracelsus Medical Private University is just a ten-minute walk away. And all public transport options are practically on the doorstep.",
+        "photos": [],
+        "reviews": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.032744,
+          47.810002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18,
+        "name": "Puch-Urstein Campus Residence",
+        "operator": "Salzburger Studentenwerk",
+        "type": "Single rooms",
+        "locality": "Puch bei Hallein",
+        "fee_min": 512.0,
+        "fee_max": 512.0,
+        "eligibility": "",
+        "website": "https://studentenheim.at/",
+        "description": "For university students of all disciplines on the Puch campus, the student residence, ideally located in a green idyll, offers not only the shortest routes to the lecture halls, but also, with its own motorway access and S-Bahn stop, the guaranteed fastest access to and from Salzburg.",
+        "photos": [],
+        "reviews": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.087904,
+          47.723004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19,
+        "name": "Rif Sports Student Residence",
+        "operator": "WIST Salzburg",
+        "type": "Single studios",
+        "locality": "Rif, Hallein",
+        "fee_min": 395.6,
+        "fee_max": 395.6,
+        "eligibility": "",
+        "website": "https://neu.wist-salzburg.com/haus-humboldt",
+        "description": "Accommodation is only available for students of the Department of Sport and Exercise Science! located in a natural setting directly opposite the sports university and in the immediate vicinity of the state sports center and the associated sports facility.",
+        "photos": [],
+        "reviews": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.069769,
+          47.720611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20,
+        "name": "Rif² Student Residence",
+        "operator": "WIST Salzburg",
+        "type": "Single studios",
+        "locality": "Rif, Hallein",
+        "fee_min": 487.2,
+        "fee_max": 487.2,
+        "eligibility": "",
+        "website": "https://neu.wist-salzburg.com/haus-humboldt",
+        "description": "Built using environmentally friendly timber construction methods and located opposite the sports facility of the state sports centre, in the immediate vicinity of the sports university and with good connections to the Puch-Urstein University of Applied Sciences.",
+        "photos": [],
+        "reviews": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.07072,
+          47.722603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 21,
+        "name": "Thomas-Michels-Heim",
+        "operator": "Studentenheime Salzburg (Katholisches Hochschulwerk)",
+        "type": "Single and double rooms",
+        "locality": "Salzburg",
+        "fee_min": 420.0,
+        "fee_max": 568.0,
+        "eligibility": "",
+        "website": "https://www.studentenheimesalzburg.at/de/preise/index.asp",
+        "description": "Bright, spacious rooms, a large courtyard garden, and an excellent central location—just 100 meters from the Wolf Dietrich Heim—make the Thomas Michels Heim a particularly attractive place to live in Salzburg. Following its complete renovation in 2010, it presents itself to its residents as a comfortable and modern residence. Fifty-two students live in the Thomas Michels student residence.",
+        "photos": [],
+        "reviews": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.046509,
+          47.806734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 22,
+        "name": "Wolf-Dietrich-Heim",
+        "operator": "Studentenheime Salzburg (Katholisches Hochschulwerk)",
+        "type": "Single and double rooms",
+        "locality": "Salzburg",
+        "fee_min": 528.0,
+        "fee_max": 630.0,
+        "eligibility": "",
+        "website": "https://www.studentenheimesalzburg.at/de/preise/index.asp",
+        "description": "You'll find various sizes of single-room studio apartments in the Wolf Dietrich Residence Hall, which underwent a complete renovation in 2019. Each is equipped with a small kitchenette including a refrigerator and induction cooktop, as well as a high-quality bathroom, and offers everything else you need for living and studying.",
+        "photos": [],
+        "reviews": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.047488,
+          47.806054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23,
+        "name": "Techno Z Dorm",
+        "operator": "TechnoZ",
+        "type": "Single rooms",
+        "locality": "Salzburg",
+        "fee_min": 555.0,
+        "fee_max": 580.0,
+        "eligibility": "",
+        "website": "",
+        "description": "The Techno-Z Student Residence is located in the north part of the city of Salzburg in the Itzling district. The proximity to the Salzach river (bike path and recreation) and easy access to public transport and the Autobahn (A1) make the location of the Student Residence excellent. There are numerous shopping possibilities within walking distance (Hofer, Spar, DM, Billa).",
+        "photos": [],
+        "reviews": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.040091624672511,
+          47.82369786429456
+        ]
+      }
+    }
+  ]
+}

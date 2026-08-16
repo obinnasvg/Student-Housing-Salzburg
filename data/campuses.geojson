@@ -1,0 +1,105 @@
+{
+  "type": "FeatureCollection",
+  "name": "salzburg_campuses",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "name": "Unipark Nonntal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.054136, 47.794872]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "name": "Faculty of Natural Sciences"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.059428, 47.789101]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "name": "University main building"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.041872, 47.799519]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "name": "Mozarteum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.043613, 47.803883]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "name": "Paracelsus Medical University"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.031548, 47.809294]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "name": "Science City Itzling / Techno-Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.040488, 47.822599]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "name": "FH Salzburg, Urstein"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.086588, 47.723886]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8,
+        "name": "FH Salzburg, Kuchl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.151535, 47.630411]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "name": "Sport and Exercise Science, Rif"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.070833, 47.721675]
+      }
+    }
+  ]
+}

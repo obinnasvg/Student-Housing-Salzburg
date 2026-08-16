@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Housing Salzburg — Interactive Map</title>
+<meta name="description" content="An interactive map of student residences in Salzburg and the surrounding region: locations, rents, room types, distances to campus and anonymous reviews.">
+
+<!-- Leaflet -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder@2.4.0/dist/Control.Geocoder.css">
+
+<!-- Project stylesheet -->
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ============ MASTHEAD ============ -->
+<header class="masthead">
+  <div class="masthead__brand">
+    <p class="eyebrow">Interactive Dormitory Map — Interaktive Wohnkarte</p>
+    <h1>Student Housing Salzburg</h1>
+  </div>
+  <dl class="masthead__facts">
+    <div><dt>Locations</dt><dd id="factCount">—</dd></div>
+    <div><dt>Rent from</dt><dd id="factRent">—</dd></div>
+    <div><dt>Operators</dt><dd id="factOperators">—</dd></div>
+  </dl>
+</header>
+
+<main class="layout">
+
+  <!-- ============ INDEX COLUMN ============ -->
+  <section class="index" aria-label="Accommodation index">
+
+    <div class="index__search">
+      <label class="field">
+        <span class="field__label">Filter the index</span>
+        <input id="dormSearch" type="search" autocomplete="off"
+               placeholder="Name, operator, room type or place">
+      </label>
+      <p class="index__count" id="indexCount">Loading index</p>
+    </div>
+
+    <ol class="index__list" id="dormList"></ol>
+
+    <footer class="index__foot">
+      <p>Rents are guide figures published by the operators and may change. Always confirm
+         current prices and availability with the operator before applying.</p>
+      <p>Map data © OpenStreetMap contributors.</p>
+    </footer>
+  </section>
+
+  <!-- ============ MAP ============ -->
+  <div class="map-frame">
+    <div id="map"></div>
+
+    <!-- measuring state banner -->
+    <div class="measure-bar" id="measureBar" role="status">
+      <span class="measure-bar__label">Measuring</span>
+      <span id="measureText"></span>
+      <button type="button" id="measureCancel">Cancel · Esc</button>
+    </div>
+  </div>
+
+  <!-- ============ DETAIL PANEL ============ -->
+  <aside class="record" id="record" aria-label="Accommodation record" hidden>
+    <button class="record__close" id="recordClose" aria-label="Close record">Close ×</button>
+
+    <div class="record__scroll">
+
+      <figure class="plate" id="recordPlate"></figure>
+
+      <div class="record__head">
+        <p class="eyebrow" id="recordIndex">—</p>
+        <h2 id="recordName">—</h2>
+        <p class="record__operator" id="recordOperator">—</p>
+      </div>
+
+      <dl class="spec" id="recordSpec"></dl>
+
+      <p class="record__text" id="recordDescription"></p>
+
+      <div class="record__actions">
+        <button class="btn btn--solid" id="btnMeasure" type="button">Measure distance from here</button>
+        <a class="btn btn--line" id="btnWebsite" href="#" target="_blank" rel="noopener">Operator website</a>
+      </div>
+
+      <!-- reviews -->
+      <section class="reviews" aria-label="Anonymous reviews">
+        <div class="reviews__head">
+          <h3>Anonymous reviews</h3>
+          <p class="reviews__score" id="reviewScore">No reviews</p>
+        </div>
+
+        <ul class="reviews__list" id="reviewList"></ul>
+
+        <form class="reviewform" id="reviewForm">
+          <p class="field__label">Your rating</p>
+          <div class="rating-input" id="ratingInput" role="radiogroup" aria-label="Rating, 1 to 5"></div>
+
+          <label class="field">
+            <span class="field__label" for="reviewText">Your review</span>
+            <textarea id="reviewText" maxlength="800" rows="4"
+                      placeholder="Noise, commute, kitchen, internet, landlord…"></textarea>
+          </label>
+
+          <!-- honeypot: hidden from people, filled by bots -->
+          <input class="trap" type="text" id="trapField" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+          <button class="btn btn--solid btn--full" type="submit">Post review</button>
+          <p class="reviewform__note">No name, email address or IP address is recorded.
+             Reviews are kept in your own browser and are not shared with other visitors.</p>
+        </form>
+      </section>
+    </div>
+  </aside>
+
+</main>
+
+<p class="toast" id="toast" role="status"></p>
+
+<!-- Leaflet libraries -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="https://unpkg.com/leaflet-control-geocoder@2.4.0/dist/Control.Geocoder.js"></script>
+
+<!-- Project script -->
+<script src="js/app.js"></script>
+</body>
+</html>
