@@ -1,7 +1,4 @@
-/* ==========================================================================
-   STUDENT HOUSING SALZBURG
-   app.js — Leaflet map, index, search, distance tool, anonymous reviews
-   ========================================================================== */
+
 
 'use strict';
 
@@ -495,8 +492,7 @@ document.addEventListener('keydown', function (event) {
 
 /* --------------------------------------------------------------------------
    10. REVIEWS
-   Anonymous: no name, email or address is recorded. Without a server, reviews
-   are held in the visitor's own browser.
+
    -------------------------------------------------------------------------- */
 const store = (function () {
   const memory = {};
