@@ -553,6 +553,126 @@
           47.82369786429456
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 24,
+        "name": "@HOME Studentenwohnheim Salzburg",
+        "operator": "@HOME Salzburg",
+        "type": "Single and double rooms",
+        "locality": "Salzburg",
+        "fee_min": 750.0,
+        "fee_max": 900.0,
+        "eligibility": "",
+        "website": "https://www.studentenwohnheim-salzburg.at/en/",
+        "description": "Just a few minutes' walk from Stadtbibliothek Salzburg, with direct access to public transport and just 2.5 kilometres from the University of Salzburg, the halls of residence in the city of Salzburg are in a central location on Gaswerkgasse 24, near the main train station and just five minutes from Paracelsus Medizinische Privatuniversität.",
+        "photos": [],
+        "reviews": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.033193677116008,
+          47.81106060222429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 25,
+        "name": "Academic Support | Black Horse Inn",
+        "operator": "The Akademikerhilfe student support association",
+        "type": "Single and double rooms",
+        "locality": "Salzburg",
+        "fee_min": 350.0,
+        "fee_max": 497.0,
+        "eligibility": "",
+        "website": "https://www.akademikerhilfe.at/de/haus-priesterhausgasse-6",
+        "description": "The rooms in Priesterhausgasse are lovingly furnished and measure 10 to 33 m². All twin rooms are equipped with their own shower and WC. Some of the single rooms have a shower and WC in the room, some just have a sink and the bathroom is shared with up to 4 other rooms in a shared apartment. To cook, residents come together in one of the two communal kitchens; a private refrigerator is available in every room.",
+        "photos": [],
+        "reviews": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.04563899688616,
+          47.80273273927308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 26,
+        "name": "ÖJAB House Salzburg, student and youth residence in Salzburg",
+        "operator": "Österreichische JungArbeiterBewegung (Austrian Young Workers Movement)",
+        "type": "Single and double rooms",
+        "locality": "Salzburg",
+        "fee_min": 381.0,
+        "fee_max": 593.0,
+        "eligibility": "",
+        "website": "https://oejab.at/strubergasse",
+        "description": "151 beds. Open 9 months a year. Single rooms, space available in double rooms. All rooms with toilet and shower (completely renovated in 2012), anteroom, telephone, high-speed internet (Wi-Fi and LAN) and cable TV connection. Modern and comfortable communal kitchens.",
+        "photos": [],
+        "reviews": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.034996910859773,
+          47.80904626134541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 27,
+        "name": "Salzburg Teachers' House, a home for students and pupils",
+        "operator": "The Salzburg Teachers' House Association",
+        "type": "Single and double rooms",
+        "locality": "Salzburg",
+        "fee_min": 322.0,
+        "fee_max": 465.0,
+        "eligibility": "",
+        "website": "https://www.salzburger-lehrerhaus.at/",
+        "description": "The Salzburg Teachers' House is a student residence in Salzburg, specifically aimed at children from families of teachers, students of the University of Education, and teacher training students from the University of Salzburg and the Mozarteum University. Students attending secondary schools in the city of Salzburg can also find accommodation, support, and meals here.",
+        "photos": [],
+        "reviews": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.033723870355328,
+          47.792451029106886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 28,
+        "name": "Frohnburg Castle Student Residence",
+        "operator": "Association of Friends of the University of Salzburg",
+        "type": "Single and double rooms",
+        "locality": "Salzburg",
+        "fee_min": 310.0,
+        "fee_max": 415.0,
+        "eligibility": "",
+        "website": "https://www.unimozarteum-freunde.at/",
+        "description": "The Frohnburg Castle student residence is located in a historic 17th-century building (built in 1670/80) at Hellbrunner Allee 53 in Salzburg. It offers 28 beds in fully furnished single and double rooms. There are 16 single rooms (with a shared bathroom for two) and 6 double rooms available. The minimum contract term is 12 months, with the possibility of annual renewal. Proof of successful academic progress is required. The security deposit is equivalent to one month's rent.",
+        "photos": [],
+        "reviews": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.06045462542947,
+          47.7772374723356
+        ]
+      }
     }
   ]
 }
