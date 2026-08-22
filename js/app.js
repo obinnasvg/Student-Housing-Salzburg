@@ -455,11 +455,11 @@ function completeMeasure(destination, destinationName) {
   L.marker(midpoint, {
     interactive: false,
     icon: L.divIcon({
-      className: '',
+      className: 'rulertag-icon',
       html: '<div class="rulertag"><b>' + formatDistance(metres) + '</b>' +
             '<span>' + walkLabel(metres) + '</span></div>',
       iconSize: [0, 0],
-      iconAnchor: [48, 20]
+      iconAnchor: [0, 0]
     })
   }).addTo(measureLayer);
 

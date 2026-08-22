@@ -421,12 +421,21 @@ input, textarea, button, select,
 .pop__open:hover{ background: var(--forest-deep); }
 
 /* measuring line label */
+.rulertag-icon{
+  /* Leaflet inlines width/height from iconSize (0,0); let the tag size to its
+     own content instead of collapsing the background around it. */
+  width: auto !important;
+  height: auto !important;
+}
 .rulertag{
   background: var(--paper);
   border: var(--hair) solid var(--rule-strong);
   padding: 6px 9px;
   white-space: nowrap;
   text-align: center;
+  /* iconAnchor is [0,0], so the wrapper's corner sits exactly on the
+     midpoint; centre the tag on it regardless of text length. */
+  transform: translate(-50%, -50%);
 }
 .rulertag b{
   display: block;
