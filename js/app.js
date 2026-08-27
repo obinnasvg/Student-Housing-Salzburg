@@ -243,7 +243,7 @@ function addMarker(feature) {
 function popupHtml(feature) {
   const p = feature.properties;
   return '<div class="pop">' +
-    '<p class="pop__no">' + p.no + ' — ' + escapeHtml(p.locality || '') + '</p>' +
+    '<p class="pop__no">' + escapeHtml(p.locality || '') + '</p>' +
     '<p class="pop__name">' + escapeHtml(p.name) + '</p>' +
     '<p class="pop__rent">' + feeLabel(p) + '</p>' +
     '<button class="pop__open" type="button">Open record</button>' +
